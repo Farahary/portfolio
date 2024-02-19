@@ -1,0 +1,47 @@
+h2 {
+  text-transform: uppercase;
+  color: rgb(172, 34, 34);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  text-transform: uppercase;
+  color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+* {
+  background: burlywood;
+}
+h3 {
+  color: deeppink;
+  font-family: cursive;
+}
+
+h4 {
+  color: brown;
+}
+
+h5 {
+  color: aqua;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li {
+  display: inline;
+  float: none;
+  padding: 10px;
+}
+
+header nav ul li a:hover {
+  background-color: aqua;
+}
