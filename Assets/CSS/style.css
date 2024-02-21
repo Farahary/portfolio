@@ -1,3 +1,19 @@
+.root {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 1fr;
+  width: 100w;
+}
+header {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid tan;
+  position: sticky;
+  top: 0;
+}
+
 h2 {
   text-transform: uppercase;
   color: rgb(172, 34, 34);
@@ -8,9 +24,7 @@ h1 {
   color: blue;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-* {
-  background: burlywood;
-}
+
 h3 {
   color: deeppink;
   font-family: cursive;
@@ -31,11 +45,6 @@ header nav ul li a {
   font-weight: bold;
 }
 
-nav {
-  display: flex;
-  justify-content: center;
-}
-
 header nav ul li {
   display: inline;
   float: none;
@@ -44,4 +53,26 @@ header nav ul li {
 
 header nav ul li a:hover {
   background-color: aqua;
+}
+
+.imageavecdescription {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: 1fr auto;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid tan;
+}
+
+.imageavecdescription img {
+  margin-right: 80px;
+}
+.imageavecdescription p {
+  font-size: medium;
+  text-align: center;
+  width: 80%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container-fluid a {
+  color: rgb(34, 5, 130);
 }
